@@ -290,3 +290,159 @@ The Home screen ensures users can:
 All in one clean, central dashboard.
 
 
+
+
+
+
+
+
+
+
+## 🛠️ 10. Admin Panel  
+The Admin Panel is designed for college event coordinators or club heads who are responsible for creating and managing events on the CollabNest platform.
+
+Admins are assigned a **unique login ID and password** by the system administrators.
+
+---
+
+### 🔐 **Admin Login**  
+Admins can securely log in using their admin credentials.  
+They also have the option to switch back to the user login screen.
+
+**Features:**
+- Username & password login  
+- Password visibility toggle  
+- Forgot Password option  
+- “Login as User” quick switch  
+
+**Screenshot:**  
+<img src="https://github.com/Patil-Kalpak/CollabNest-App/blob/main/screenshots/adminLogin.jpeg" width="200">
+
+---
+
+## 🗓️ 11. Create New Event (Admin Only)  
+Admins can create and publish events that become visible to all students in the app.
+
+The event creation form includes all necessary details for a well-structured event post.
+
+---
+
+### 🔸 **Event Creation Form Fields**
+Admins can enter:
+
+- **Event Name**  
+- **Event Date**  
+- **Start Time & End Time**  
+- **Location / Venue / Online Link**  
+- **Event Description**  
+- **Speaker / Host Names**  
+- **Max Participants Allowed**  
+- **Registration Link (Optional)**  
+- **Prize Pool (Optional)**  
+- **Event Coordinator (Optional)**  
+- **Upload Event Poster**  
+
+**Screenshots:**  
+<img src="https://github.com/Patil-Kalpak/CollabNest-App/blob/main/screenshots/CreateEvent.jpeg" width="200" style="margin-right:20px;">
+<img src="https://github.com/Patil-Kalpak/CollabNest-App/blob/main/screenshots/Createevent2.jpeg" width="200">
+
+---
+
+### ⚠️ **Duplicate Date Detection (Collision Check)**  
+To maintain event scheduling clarity, CollabNest automatically checks if another event already exists on the selected date.
+
+**If an event exists on that date:**
+- The admin sees a warning message  
+- They are prompted to choose another date  
+- The event cannot be posted with a conflicting date  
+
+This ensures clean scheduling and avoids overlapping or clashing events.
+
+---
+
+### ✔ **Successful Event Creation**  
+After submitting all fields and passing validation, the event becomes visible to:
+- **All students on the Home screen (Upcoming Events section)**  
+- **The Event Calendar (highlighted with a dot)**  
+
+Admins can then monitor participation through their club or separately.
+
+---
+
+
+
+## 📢 12. Send Notifications (Admin Only)  
+CollabNest gives admins the ability to send important updates and announcements directly to students.  
+Notifications are powered by **Firebase Cloud Messaging (FCM)** and can be targeted to **all users** or only to **participants of a specific event**.
+
+---
+
+### 🔸 **Send Notification to All Users**  
+Admins can broadcast announcements that reach every student using the app.
+
+**Features:**
+- Enter **Notification Title**  
+- Enter **Notification Message**  
+- Send instantly to all users  
+- Confirm dialog before sending  
+
+**Screenshot:**  
+<img src="https://github.com/Patil-Kalpak/CollabNest-App/blob/main/screenshots/sendNotificationpage.jpeg" width="200">
+
+---
+
+### 🔸 **Send Notification to Event Participants Only**  
+Admins can also notify students who are registered for **a specific event**.
+
+**Features:**
+- Admin sees a list of all events  
+- Selecting an event opens a popup  
+- Enter Title & Message  
+- Sends notification only to registered students  
+- Useful for reminders like:  
+  - "Event starts in 10 minutes"  
+  - "Venue changed"  
+  - "Bring your laptops"  
+
+**Screenshot:**  
+<img src="https://github.com/Patil-Kalpak/CollabNest-App/blob/main/screenshots/SendNotification2.jpeg" width="200">
+
+
+
+
+## 🛠️ 13. Tech Stack  
+CollabNest is built using a modern and scalable tech stack:
+
+### **Frontend (Mobile App)**
+- Kotlin (Android)
+- XML for UI Layouts  
+- ViewModel + LiveData  
+- RecyclerView & ViewPager  
+- Glide (Image Loading)
+
+### **Backend**
+- Firebase Authentication  
+- Firebase RealTime Database  
+- GitHub to store Images
+- Firebase Cloud Messaging (FCM)
+- High-performance operations
+- Secure API endpoints
+- Future scalability
+- hosted on Render
+
+
+ ## 👨‍💻 Developers & Contact  
+
+**Kalpak Patil**  
+📧 Email: kalpakpatil131@gmail.com
+🔗 GitHub: https://github.com/Patil-Kalpak  
+
+**Saina**  
+📧 Email: sainasaindane28@gmail.com  
+
+**Alfiya**  
+📧 Email: heetgandhi2511@gmail.com  
+ 
+
+
+
